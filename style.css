@@ -36,12 +36,8 @@ body {
 body > .card {
   border-radius: 10px;
   overflow: hidden;
-  height: 450px;
-  width: 350px;
-  background-color: white;
-}
-
-body > .card > .card__mid {
+  height: 380px;
+  width: 370px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -52,13 +48,52 @@ body > .card > .card__mid {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  -webkit-box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+          box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+}
+
+body > .card > img {
+  margin-top: -20px;
+  width: 380px;
+}
+
+body > .card > .card__mid {
+  margin-top: -45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
 }
 
 body > .card > .card__mid > .card__avatar {
-  height: 75px;
-  width: 75px;
+  height: 90px;
+  width: 90px;
+  margin: 0 auto;
   border-radius: 50%;
   border: 2px solid white;
+}
+
+body > .card > .card__mid > h1 span {
+  color: var(--dark-gray);
+  font-weight: normal;
+}
+
+body > .card > .card__mid > p {
+  margin-top: 0rem;
+  font-size: 0.9rem;
+  color: var(--dark-gray);
+  font-weight: normal;
 }
 
 body > .card > .card__bottom {
@@ -69,6 +104,13 @@ body > .card > .card__bottom {
       -ms-flex-pack: center;
           justify-content: center;
   gap: 1.5rem;
+  text-align: center;
+}
+
+body > .card > .card__bottom > .column > p {
+  font-size: 0.7rem;
+  color: var(--dark-gray);
+  letter-spacing: 0.1rem;
 }
 
 body > footer > .attribution {
