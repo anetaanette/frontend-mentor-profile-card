@@ -26,10 +26,10 @@ body {
   font-family: "Kumbh Sans", sans-serif;
   color: var(--very-dark-desaturated-blue);
   > .card {
-    border-radius: 10px;
+    border-radius: 20px;
     overflow: hidden;
     height: 380px;
-    width: 370px;
+    width: 340px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -108,6 +108,6 @@ body {
 
 @media all and (max-width: 375px) {
   body {
-    height: auto;
+    height: 50%;
   }
 }
