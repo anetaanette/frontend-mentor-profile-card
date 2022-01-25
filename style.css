@@ -31,6 +31,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   font-family: "Kumbh Sans", sans-serif;
+  color: var(--very-dark-desaturated-blue);
 }
 
 body > .card {
@@ -81,7 +82,7 @@ body > .card > .card__mid > .card__avatar {
   width: 90px;
   margin: 0 auto;
   border-radius: 50%;
-  border: 2px solid white;
+  border: 5px solid white;
 }
 
 body > .card > .card__mid > h1 span {
@@ -113,6 +114,15 @@ body > .card > .card__bottom > .column > p {
   letter-spacing: 0.1rem;
 }
 
+body > footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+}
+
 body > footer > .attribution {
   font-size: 11px;
   text-align: center;
@@ -121,5 +131,18 @@ body > footer > .attribution {
 body > footer > .attribution a {
   color: #3e52a3;
   font-size: 11px;
+}
+
+.card__mid::after {
+  content: "";
+  border-bottom: 1px solid var(--dark-gray);
+  width: 380px;
+  opacity: 0.3;
+}
+
+@media all and (max-width: 375px) {
+  body {
+    height: auto;
+  }
 }
 /*# sourceMappingURL=style.css.map */
