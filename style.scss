@@ -36,7 +36,6 @@ body {
     align-items: center;
     background-color: white;
     box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
-    //box-shadow: 0 0 15px var(--very-dark-desaturated-blue);
     > img {
       margin-top: -20px;
       width: 380px;
@@ -105,9 +104,3 @@ body {
   width: 380px;
   opacity: 0.3;
 }
-
-/* @media all and (max-width: 375px) {
-  body {
-    height: 100%;
-  }
-} */
