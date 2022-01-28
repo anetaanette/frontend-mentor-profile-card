@@ -27,7 +27,7 @@ body {
           align-items: center;
   background-color: var(--dark-cyan);
   background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
-  background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+  background-position: right 45vw bottom 45vh, left 45vw top 45vh;
   background-repeat: no-repeat;
   background-size: cover;
   font-family: "Kumbh Sans", sans-serif;
@@ -140,9 +140,9 @@ body > footer > .attribution a {
   opacity: 0.3;
 }
 
-@media all and (max-width: 375px) {
+/* @media all and (max-width: 375px) {
   body {
-    height: 50%;
+    height: 100%;
   }
-}
+} */
 /*# sourceMappingURL=style.css.map */
